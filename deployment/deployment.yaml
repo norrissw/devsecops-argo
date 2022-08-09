@@ -53,7 +53,7 @@ spec:
     runAsNonRoot: true
   containers:
     - name: secure-vul-flask
-      image: <image-name>
+      image: image: ghcr.io/norrissw/we45-vul:latest
       imagePullPolicy: Always
       securityContext:
         allowPrivilegeEscalation: false

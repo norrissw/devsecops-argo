@@ -103,4 +103,4 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/<user-name>/we45-vul:latest
+            ghcr.io/norrissw/we45-vul:latest
