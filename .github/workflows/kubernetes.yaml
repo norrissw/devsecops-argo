@@ -1,9 +1,7 @@
 name: Security Scan 
 
 on:
-  pull_request:
-    branches:
-      - main
+  push:
 
 jobs:
   Application_scan:
