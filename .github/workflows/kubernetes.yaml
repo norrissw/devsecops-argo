@@ -7,7 +7,7 @@ jobs:
   Application_scan:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout 🛎️
+    - name: Checkout
       uses: actions/checkout@v2
     - name : Performing Sca 
       working-directory: app 
@@ -34,7 +34,7 @@ jobs:
   Docker-scan:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout 🛎️
+    - name: Checkout
       uses: actions/checkout@v2
     - name : Performing  Hadolint Scan
       continue-on-error: true
@@ -61,7 +61,7 @@ jobs:
   Kubernetes-scan:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout 🛎️
+    - name: Checkout
       uses: actions/checkout@v2
     - name: Checkov scan 
       continue-on-error: true
